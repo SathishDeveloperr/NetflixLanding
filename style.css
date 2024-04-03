@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.cont {
+    height: 100vh;
+    background-image: radial-gradient(circle, rgba(44, 39, 39, 0.2), rgb(44, 39, 39)), url('/img/header-image.png');   
+    background-position: center;
+    background-size: cover;
+}
+
+   
+.row nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px  10%;
+}
+
+.row nav .logo{
+    color:red;
+    text-decoration: none;  
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 80px;
+}
+
+
+.row nav .signin{
+    color:white;
+    background-color: red;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.landquotes{
+    color:white;
+    text-align: center; 
+    margin-top:250px ;
+}
+
+.landquotes h2{
+    margin-bottom: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+#landquote{
+    margin-top: 3px;
+    font-size: 30px;
+}
+
+#landquote1{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+input{
+margin-top: 10px;
+    width: 650px;
+    height:50px;
+    border-radius: 2px;
+}
+
+.landbtn{
+    background-color: red;
+    color: white;
+    padding:15px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.belowlandbtn{
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .landquotes{
+        color:white;
+        text-align: center; 
+        margin-top:100px;
+    }
+
+    body{
+        width: 400px;
+    }
+    
+    .container{
+        width: 450px;
+    }
+
+    .row nav .logo{
+        color:red;
+        text-decoration: none;  
+        text-transform: uppercase;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+    }
+    
+    .row nav .signin{
+        color:white;
+        background-color: red;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    input{
+        margin-top: 10px;
+            width: 150px;
+            height:50px;
+            border-radius: 2px;
+    }
+
+    .landbtn{
+        background-color: red;
+        color: white;
+        padding:15px;
+        font-size: 15px;
+        margin-top: 5px;
+
+    }
+
+    @media screen and (max-width: 1200px){
+        
+    }
+}

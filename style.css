@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 }
 .cont {
     height: 100vh;
-    background-image: radial-gradient(circle, rgba(44, 39, 39, 0.2), rgb(44, 39, 39)), url('/img/header-image.png');   
+    background-image: url('/img/header-image.png');   
     background-position: center;
     background-size: cover;
 }
